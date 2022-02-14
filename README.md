@@ -2,7 +2,7 @@
 
 Simple in usage Recycler Layout Manager with spiral item positioning.
 
-|![](spiralSample.gif)width="400" height="790"|
+|![]<img src="spiralSample.gif" width="400" height="790"/>|
 
 
 ## Usage
