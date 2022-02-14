@@ -2,8 +2,8 @@
 
 Simple in usage Recycler Layout Manager with spiral item positioning.
 
-|  ![](animation.gif)|
-|---|---|---|
+|  ![](spiralSample.webm)|
+
 
 ## Usage
 Just add a `CurveLayoutManger` as a layout manager for your recycler view.
