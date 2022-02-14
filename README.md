@@ -2,7 +2,7 @@
 
 Simple in usage Recycler Layout Manager with spiral item positioning.
 
-|  ![](spiralSample.webm)|
+|  ![](spiralSample.gif)|
 
 
 ## Usage
