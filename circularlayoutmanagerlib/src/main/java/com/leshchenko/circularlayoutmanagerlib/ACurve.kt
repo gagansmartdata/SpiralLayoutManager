@@ -3,12 +3,12 @@ package com.leshchenko.circularlayoutmanagerlib
 class ACurve : CurveLayoutManger.Curve() {
     private val points = listOf(
             CurveLayoutManger.Vector2(0.5f, 0.5f),
-            CurveLayoutManger.Vector2(0.1f, 0.5f),
-            CurveLayoutManger.Vector2(0.6f, -0.2f),
-            CurveLayoutManger.Vector2(1.4f, .5f),
-            CurveLayoutManger.Vector2(.6f, 1f),
+            CurveLayoutManger.Vector2(-0.1f, 0.7f),
+            CurveLayoutManger.Vector2(0.4f, -0.3f),
+            CurveLayoutManger.Vector2(1.3f, .4f),
+            CurveLayoutManger.Vector2(1.1f, 1.1f),
             CurveLayoutManger.Vector2(.2f, 1.2f),
-            CurveLayoutManger.Vector2(0f, .7f),
+            CurveLayoutManger.Vector2(-.5f, 0.8f),
             CurveLayoutManger.Vector2(-.7f, -.4f),
             CurveLayoutManger.Vector2(1.7f, -0.4f),
             CurveLayoutManger.Vector2(0.9f, 1.2f)
