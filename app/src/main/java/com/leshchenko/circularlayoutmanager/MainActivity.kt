@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.leshchenko.circularlayoutmanagerlib.ACurve
@@ -36,10 +37,11 @@ class MainActivity : AppCompatActivity() {
         override fun getItemCount() = 20
 
         override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+            holder.itemView.findViewById<ImageView>(R.id.imgItem).setImageResource(R.drawable.dummy_profile_pic)
             holder.itemView.setOnClickListener {
-                circularRecycler.postDelayed({
+               /* circularRecycler.postDelayed({
                     circularRecycler.smoothScrollBy(it.x.roundToInt(), it.y.roundToInt())
-                },2500)
+                },2500)*/
             }
         }
 

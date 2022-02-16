@@ -179,9 +179,10 @@ class CurveLayoutManger(
 
 
         arrayOfRect.apply {
-            val bottomView = maxBy { g ->
-                g.rect.top
+           val bottomView = maxBy { g ->
+                g.rect.top - g.rect.left
             }
+
             var scaleRatio = when {
                 arrayOfRect.indexOf(bottomView) < 2 -> {
                     .66f
@@ -240,7 +241,7 @@ class CurveLayoutManger(
         offsetChildrenVertical(-travel)
 
         recycleAndFillItems(recycler, state)
-
+        scaleItems()
         return travel
     }
 
