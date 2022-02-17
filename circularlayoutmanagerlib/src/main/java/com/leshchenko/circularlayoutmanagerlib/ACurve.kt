@@ -47,7 +47,7 @@ class ACurve : CurveLayoutManger.Curve() {
     }
 
     override fun getStartOffset(size: CurveLayoutManger.Vector2): Float {
-        return .1f
+        return .32f
     }
 
     override fun getEndOffset(size: CurveLayoutManger.Vector2): Float {
